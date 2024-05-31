@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    justify-content: space-between;
+    padding: ;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+nav a {
+    font-size: 24px;
+    color: rgb(237, 227, 227);
+    text-decoration: none;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    
+    margin: 30px;
+    text-align: center;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: ;
+    display: flex;
+}
+
+footer a {
+    margin-right: ;
+}
+
+footer p {
+    font-size: 24px;
+    color: azure;
+    margin-left: 50px;
+    }
+
+.article-but{
+    background-color: black;
+}
+
+img {
+    width: 500px;
+    height: 250px;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: all 2s linear;
+}
+
+p{
+    border: 8px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+p span {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    color: blue
+}
